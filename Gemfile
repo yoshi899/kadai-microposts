@@ -54,7 +54,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-#PostgreSQLの追加
+#PostgreSQLとkaminariの追加
 group :production do
   gem 'pg', '0.21.0'
+  gem 'kaminari'
 end
